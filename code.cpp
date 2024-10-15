@@ -2,6 +2,13 @@
 
 using namespace std;
 
+/*
+La suite de Fibonacci est définie par :
+fn+1 = fn + fn-1 avec f0 = 0 et f1 = 1
+
+Exemple : pour n = 9 termes, la suite est  0  1  1  2  3  5  8  13  21
+*/
+
 int main(int argc, char const *argv[])
 {
     int n, i, b=0;
